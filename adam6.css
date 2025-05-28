@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0a032a;
+  color: white;
+  line-height: 1.6;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  padding: 20px 50px;
+  background-color: #10063f;
+  align-items: center;
+}
+
+.navbar .logo {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #00e0ff;
+}
+
+.navbar .nav-links a {
+  color: white;
+  margin-left: 25px;
+  text-decoration: none;
+  font-size: 0.95em;
+  transition: color 0.3s;
+}
+
+.navbar .nav-links a:hover {
+  color: #00e0ff;
+}
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 60px 50px;
+  align-items: center;
+  gap: 40px;
+  background: linear-gradient(to right, #10063f, #0a032a);
+}
+
+.hero-content {
+  flex: 1;
+}
+
+.hero-content h5 {
+  font-size: 0.9em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #00e0ff;
+}
+
+.hero-content h1 {
+  font-size: 2.5em;
+  margin: 15px 0;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #00e0ff;
+  color: #0a032a;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #00b7cc;
+}
+
+.hero-image img {
+  max-width: 100%;
+  border-radius: 12px;
+}
+
+.services {
+  padding: 60px 50px;
+  background-color: #120849;
+}
+
+.services-header h2 {
+  color: #00e0ff;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.services-header h3 {
+  font-size: 2em;
+  margin: 10px 0;
+}
+
+.services-header p {
+  max-width: 600px;
+  margin: 20px 0;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.service-card {
+  background-color: #1a0d55;
+  padding: 20px;
+  border-radius: 12px;
+  transition: transform 0.3s;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+.service-card .icon {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #00e0ff;
+}
+
+.service-card h4 {
+  margin-bottom: 10px;
+  font-size: 1.2em;
+}
